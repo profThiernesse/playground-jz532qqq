@@ -13,7 +13,7 @@ Le PHP est délimité par les balises ouvrante <?php et fermante ?>. Lorsque l'i
 Le `PHP` permet de générer du code/texte (le plus souvent du HTML). Il est également utile à structurer/découper vos fichiers dans le but de faciliter le développement et le maintien de vos applications.
 
 ### Exemple
-L'exemple ci-dessous présente un simple script PHP intégré dans une page HTML. Le résultat de l'exécution produit une page HTML qui doit encore être interprété par un navigateur.
+L'exemple ci-dessous présente un simple script PHP intégré dans une page HTML. Le résultat de l'exécution produit une page HTML qui doit encore être interprétée par un navigateur.
 ```php runnable
 <html>
     <head>
