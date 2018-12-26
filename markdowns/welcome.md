@@ -5,9 +5,35 @@ This PHP template lets you get started quickly with a simple working example in 
 
 The source code is on [GitHub](https://github.com/TechDotIO/php-template), please feel free to come up with proposals to improve it.
 
+# Contexte
+Pour les premiers exercices que vous réaliserez sur cette interface il ests uniquement demandez d'introduire le code contenu dans le `body`.
+Vous serez donc dans le contexte présenté ci-après :
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Titre de page</title>
+	</head>
+	<body>
+		//Votre code se trouvera ici.
+	</body>
+</html>
+```
+
+# HTMLM
+
+```html runnable
+<h1>Titre</h1>
+<p>Paragraphe</p>
+````
+
 # Hands-on Demo
 
-@[Luke, how many stars there are in these galaxies?]({"stubs": ["Universe.php"], "command": "/bin/bash run.sh"})
+@[Plus compliqué]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide ^h1--div--([.*ul--[li-id-(li-.*-){3,}].*])$"})
+
+@[<br>]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide br"})
+
 
 Check out the markdown file [`welcome.md`]() to see how this exercise is injected into the template.
 

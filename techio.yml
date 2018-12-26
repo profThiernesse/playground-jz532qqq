@@ -1,7 +1,9 @@
-title: PHP Project
+title: Le PHP - Les bases du langage                                                                            
 plan:
-- title: PHP on Tech.io
-  statement: markdowns/welcome.md
+- title: Introduction
+  statement: markdowns/intro.md
+- title: Références
+  statement: markdowns/reference.md
 projects:
   first-project:
     root: /php-template
