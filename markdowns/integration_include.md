@@ -10,10 +10,6 @@ L'intérêt est de pouvoir "inclure" automatiquement des fichiers communs à l'e
 
 Bien souvent on s'arrête à `include`, mais sa variante `include_once` est bien pratique pour ne pas répéter une inclusion plusieurs fois par inadvertance (par exemple avec du code PHP plus complexe). De même, `require` est très intéressant pour "protéger" le fonctionnement d'une page ou application web : si le fichier nécessaire n'est pas accessible alors une erreur sera déclenchée et PHP arrêtera la production du document plutôt que de servir un code HTML incomplet et incohérent.
 
-@[Exemple include]({"stubs": ["main.php","include.php"], "command": "/bin/bash run.sh main.php"})
-
-L'exemple ci-dessus comprend la page `main.php`, celle-ci inclut la page `include.php`. Lors de l'exécution la page `include.php` sera ajoutée à la page `main.php` à l'emplacement de l'inclusion. Le résultat final est une seule page affichant l'intégralité des pages après interprétation.
-
 ## Utilisation
 
 L'un des cas les plus évident d'utilisation est la production de code qui est partagé entre plusieurs fichiers d'un site : 
@@ -30,3 +26,17 @@ Le code commun est aussi bien de l'affichage que du code à exécuter.
 Ceci présente nettement plus d'intérêt quand plusieurs fichiers font appel aux mêmes ressources.
 
 ![Exemple include](images/exemple_include2.jpg)
+
+L’utilisation d’un include ou d'un require revient à faire un simple copié-collé : le code du fichier appelé est inséré à l’intérieur de la page appelante, à l’endroit exact où se trouve la fonction. Elle peut être placée n’importe où, à l’intérieur du code source HTML : entre les balises <head> et </head> ou <body> et </body>, par exemple.
+
+## Exemple
+
+@[Exemple include]({"stubs": ["main.php","include.php"], "command": "/bin/bash run.sh main.php"})
+
+L'exemple ci-dessus comprend la page `main.php`, celle-ci inclut la page `include.php`. Lors de l'exécution la page `include.php` sera ajoutée à la page `main.php` à l'emplacement de l'inclusion. Le résultat final est une seule page affichant l'intégralité des pages après interprétation.
+
+## Possibilités
+
+![Exemple 1](images/exemple_use1.jpg)
+
+![Exemple 2](images/exemple_use2.jpg)
