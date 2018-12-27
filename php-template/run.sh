@@ -1,7 +1,7 @@
 
 echo "TECHIO> redirect-streams 'Output'"
-php "exemple.php"
+php $1
 
-php "exemple.php" > output.html
+php $1 > output.html
 
 echo "TECHIO> open -s /project/target/ output.html"
