@@ -14,7 +14,7 @@ Le `PHP` permet de générer du code/texte (le plus souvent du HTML). Il est ég
 
 L'exemple ci-dessous présente un simple script PHP intégré dans une page HTML. Le résultat de l'exécution produit une page HTML qui doit encore être interprétée par un navigateur.
 
-@[Exemple simple]({"stubs": ["exemple.php"], "command": "/bin/bash run.sh exemple.php"})
+@[Exemple simple]({"stubs": ["exemple.php"], "command": "/bin/bash run.sh exemple1.php"})
 
 Le `PHP` a servi à générer un document `HTML`. L'instruction d'affichage (`echo`, `printf`,...) du `PHP` "écrive" le code `HTML`.
 
