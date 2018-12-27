@@ -2,6 +2,8 @@ title: Le PHP - Les bases du langage
 plan:
 - title: Introduction
   statement: markdowns/intro.md
+- title: Include
+  statement: markdowns/integration_include.md
 - title: Références
   statement: markdowns/reference.md
 projects:
