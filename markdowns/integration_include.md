@@ -23,6 +23,10 @@ L'un des cas les plus évident d'utilisation est la production de code qui est p
 - Barre contextuelle
 - Paramètres communs PHP (par exemple connexion à MySQL, variables de configuration, chaînes de texte, fonctions...) 
 
-Le code commun est aussi de l'affichage que du code à exécuter.
+Le code commun est aussi bien de l'affichage que du code à exécuter.
 
 ![Exemple include](images/exemple_include.JPG)
+
+Ceci présente nettement plus d'intérêt quand plusieurs fichiers font appel aux mêmes ressources.
+
+![Exemple include](images/exemple_include2.jpg)
