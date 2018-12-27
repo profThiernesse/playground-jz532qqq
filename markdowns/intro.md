@@ -16,18 +16,5 @@ L'exemple ci-dessous présente un simple script PHP intégré dans une page HTML
 
 @[Exemple simple]({"stubs": ["exemple.php"], "command": "/bin/bash run.sh exemple.php"})
 
-```php runnable
-<html>
-    <head>
-        <title>Exemple</title>
-    </head>
-    <body>
-        <?php 
-          echo "<p>C'est un script PHP!</p>\n"; 
-        ?>
-    </body>
-</html>
-```
-
 Le `PHP` a servi à générer un document `HTML`. L'instruction d'affichage (`echo`, `printf`,...) du `PHP` "écrive" le code `HTML`.
 
