@@ -28,3 +28,5 @@ L'exemple ci-dessous présente un simple script PHP intégré dans une page HTML
 ```
 
 Le `PHP` a servi à générer un document `HTML`. L'instruction d'affichage (`echo`, `printf`,...) du `PHP` "écrive" le code `HTML`.
+
+@[Plus compliqué]({"stubs": ["exemple.php"], "command": "/bin/bash run.sh"})
