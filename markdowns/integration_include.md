@@ -41,5 +41,5 @@ Il y a deux possibilités principales d'utiliser les inclusions pour constuire u
 
 |Représentation|Explication|
 |--------------|-----------|
-|![Exemple 1](images/exemple_use1.jpg)|fsd fqsdf sfds fqsdf sd|
-|![Exemple 2](images/exemple_use2.jpg)|fqsd fqsdf sdf sdf|
+|![Exemple 1](images/exemple_use1.jpg)|La page main.php contient les en-tête, pied de page et menu. Le contenu principal des pages est inclu dans cette page principale.|
+|![Exemple 2](images/exemple_use2.jpg)|Une page par contenu principal est construite. Chaque page inclut les pages header.php, footer.php et menu.php.|
