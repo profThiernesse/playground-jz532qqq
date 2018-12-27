@@ -25,4 +25,4 @@ L'un des cas les plus évident d'utilisation est la production de code qui est p
 
 Le code commun est aussi de l'affichage que du code à exécuter.
 
-(Exemple include)[images/exemple_include.jpg]
+![Exemple include](images/exemple_include.jpg)
