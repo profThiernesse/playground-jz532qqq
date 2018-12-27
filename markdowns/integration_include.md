@@ -37,6 +37,9 @@ L'exemple ci-dessus comprend la page `main.php`, celle-ci inclut la page `includ
 
 ## Possibilités
 
-![Exemple 1](images/exemple_use1.jpg)
+Il y a deux possibilités principales d'utiliser les inclusions pour constuire un site.
 
-![Exemple 2](images/exemple_use2.jpg)
+|Représentation|Explication|
+|--------------|-----------|
+|![Exemple 1](images/exemple_use1.jpg)|fsd fqsdf sfds fqsdf sd|
+|![Exemple 2](images/exemple_use2.jpg)|fqsd fqsdf sdf sdf|
