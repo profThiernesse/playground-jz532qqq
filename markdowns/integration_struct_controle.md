@@ -17,4 +17,10 @@ Le premier exemple utilise simplement le fonction `date()` pour afficher une dat
 
 Cet exemple utilise l'alternative pour afficher le contenu selon que les minutes de l'heure courante soient paire ou impaire.
 
-@[Exemple date]({"stubs": ["exemple2.php"], "command": "/bin/bash run.sh exemple2.php"})
+@[Exemple Alternative]({"stubs": ["exemple2.php"], "command": "/bin/bash run.sh exemple2.php"})
+
+## Exemple 3
+
+Les entrées d'un menu sont sauvées dans un tableau, les clés sont les noms du menu et les contenus sont les liens vers lesquel ils renvoient. L'exemple utilise une boucle pour afficher le menu.
+
+@[Exemple Répétition]({"stubs": ["exemple3.php"], "command": "/bin/bash run.sh exemple3.php"})
