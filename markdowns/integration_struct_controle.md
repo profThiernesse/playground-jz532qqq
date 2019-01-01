@@ -27,4 +27,8 @@ Les entrées d'un menu sont sauvées dans un tableau, les clés sont les noms du
 
 ## Exemple 4
 
+Dans l'exemple suivant, on a un peu amélioré l'exemple 3. La fonction `display_menu` permet d'afficher le menu passé en paramètre. Cette fonction ainsi que 2 menus possibles sont conservés dans un fichier qui sera inclut dans la page principale.
+
+Le fichier inclut contient également une fonction renvoyant 1 ou 0 selon que l'année passée en paramètre est bissextile ou non.  
+
 @[Exemple Fonction]({"stubs": ["exemple4.php", "exemple4.inc.php"], "command": "/bin/bash run.sh exemple4.php"})
