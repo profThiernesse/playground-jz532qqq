@@ -24,3 +24,7 @@ Cet exemple utilise l'alternative pour afficher le contenu selon que les minutes
 Les entrées d'un menu sont sauvées dans un tableau, les clés sont les noms du menu et les contenus sont les liens vers lesquel ils renvoient. L'exemple utilise une boucle pour afficher le menu.
 
 @[Exemple Répétition]({"stubs": ["exemple3.php"], "command": "/bin/bash run.sh exemple3.php"})
+
+## Exemple 4
+
+@[Exemple Fonction]({"stubs": ["exemple4.php", "exemple4.inc.php"], "command": "/bin/bash run.sh exemple4.php"})
