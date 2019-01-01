@@ -10,6 +10,9 @@
            echo date("d/m/Y") . " il est " . date("G:i:s");
         ?>
 		</p>
-		<p>La date n'évolue pas seule. Elle ne change que chaque fois que la page est rechargée. <em>Attention: la date affichée est la date sur le serveur.</em></p>
+		<p>
+		La date n'évolue pas seule. Elle ne change que chaque fois que la page est rechargée. 
+		<em>Attention: la date affichée est la date sur le serveur.</em>
+		</p>
     </body>
 </html>

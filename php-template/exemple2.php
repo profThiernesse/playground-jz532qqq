@@ -9,9 +9,9 @@
 		<p>Le nombre des minutes est une valeur : 
 		<?php
 			if (date("i")%2==0)
-				echo "paire."
+				echo "paire.";
 			else
-				echo "impaire."
+				echo "impaire.";
 		?>
 		</p>
 		<h2>En utilisant l'alternative ternaire</h2>
