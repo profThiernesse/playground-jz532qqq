@@ -4,7 +4,7 @@ plan:
   statement: markdowns/intro.md
 - title: Include
   statement: markdowns/integration_include.md
-- title: Include
+- title: Les structures de contrôle
   statement: markdowns/integration_struct_controle.md
 - title: Références
   statement: markdowns/reference.md
