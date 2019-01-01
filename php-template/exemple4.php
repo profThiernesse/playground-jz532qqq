@@ -23,6 +23,9 @@
 			<p>
 				<em>Remarque :</em> Les liens externes à tech.io ne sont pas nécessairement fonctionnels pour des raisons de sécurité.
 			</p>
+			<p>
+				Le menu passé en paramètre peut-être modifié pour afficher un menu différent.
+			</p>
 		</nav>
     </body>
 </html>
