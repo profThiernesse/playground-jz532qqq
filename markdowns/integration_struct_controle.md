@@ -17,3 +17,4 @@ Le premier exemple utilise simplement le fonction `date()` pour afficher une dat
 
 Cet exemple utilise l'alternative pour afficher le contenu selon que les minutes de l'heure courante soient paire ou impaire.
 
+@[Exemple date]({"stubs": ["exemple2.php"], "command": "/bin/bash run.sh exemple2.php"})
