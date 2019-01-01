@@ -20,4 +20,8 @@
 		echo "</ul>";
 	}
 	
+	function bissextile($a) {
+		return ($a % 400 == 0) || ($a % 4 == 0 && $a % 100 != 0);
+	}
+	
 ?>

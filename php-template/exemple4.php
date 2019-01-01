@@ -27,5 +27,18 @@
 				Le menu passé en paramètre peut-être modifié pour afficher un menu différent.
 			</p>
 		</nav>
+		<article>
+			<h2>Fonction sans affichage</h2>
+			<p>Nous allons ici utiliser le résultat d'une fonction sans affichage pour afficher si nous sommes dans une année bissextile ou non<p>
+			<p>
+				<?php
+					echo date("Y") . " est une année : ";
+					if (bissextile(date("Y")))
+						echo "bissextile";
+					else
+						echo "non-bissextile";
+				?>
+			</p>
+		</article>		
     </body>
 </html>
