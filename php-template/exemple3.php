@@ -26,6 +26,9 @@
 					echo "<li><a href='$url'>$nom</a></li>";
 			?>
 			</ul>
+			<p>
+				<em>Remarque :</em> Les liens externes à tech.io ne sont pas nécessairement fonctionnels pour des raisons de sécurité.
+			</p>
 		</nav>
     </body>
 </html>
