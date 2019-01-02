@@ -27,7 +27,7 @@ Ceci présente nettement plus d'intérêt quand plusieurs fichiers font appel au
 
 ![Exemple include](images/exemple_include2.jpg)
 
-L’utilisation d’un include ou d'un require revient à faire un simple copié-collé : le code du fichier appelé est inséré à l’intérieur de la page appelante, à l’endroit exact où se trouve la fonction. Elle peut être placée n’importe où, à l’intérieur du code source HTML : entre les balises <head> et </head> ou <body> et </body>, par exemple.
+L’utilisation d’un include ou d'un require revient à faire un simple copier-coller : le code du fichier appelé est inséré à l’intérieur de la page appelante, à l’endroit exact où se trouve la fonction. Elle peut être placée n’importe où, à l’intérieur du code source HTML : entre les balises <head> et </head> ou <body> et </body>, par exemple.
 
 ## Exemple
 
