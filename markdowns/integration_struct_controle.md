@@ -15,7 +15,7 @@ Le premier exemple utilise simplement le fonction `date()` pour afficher une dat
 
 ## Exemple 2
 
-Cet exemple utilise l'alternative pour afficher le contenu selon que les minutes de l'heure courante soient paire ou impaire.
+Cet exemple utilise l'alternative pour afficher le contenu selon que les minutes de l'heure courante sont paires ou impaires.
 
 @[Exemple Alternative]({"stubs": ["exemple2.php"], "command": "/bin/bash run.sh exemple2.php"})
 
@@ -27,8 +27,8 @@ Les entrées d'un menu sont sauvées dans un tableau, les clés sont les noms du
 
 ## Exemple 4
 
-Dans l'exemple suivant, on a un peu amélioré l'exemple 3. La fonction `display_menu` permet d'afficher le menu passé en paramètre. Cette fonction ainsi que 2 menus possibles sont conservés dans un fichier qui sera inclut dans la page principale.
+Dans l'exemple suivant, on a un peu amélioré l'exemple 3. La fonction `display_menu` permet d'afficher le menu passé en paramètre. Cette fonction ainsi que 2 menus possibles sont conservés dans un fichier qui sera inclus dans la page principale.
 
-Le fichier inclut contient également une fonction renvoyant 1 ou 0 selon que l'année passée en paramètre est bissextile ou non.  
+Le fichier inclus contient également une fonction renvoyant 1 ou 0 selon que l'année passée en paramètre est bissextile ou non.  
 
 @[Exemple Fonction]({"stubs": ["exemple4.php", "exemple4.inc.php"], "command": "/bin/bash run.sh exemple4.php"})
